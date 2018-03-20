@@ -9,13 +9,28 @@ usage: stretch-reminder.py [-h] [-m MINUTES] [-c COUNT] [-t TITLE]
 Reminds user/coder to stretch.
 
 optional arguments:
-  -h, --help            show this help message and exit
-  -m MINUTES, --minutes MINUTES
+
+
+  -h, --help : show this help message and exit
+
+
+  -m MINUTES, --minutes : MINUTES
                         Show notification with a specified minute interval.
-  -c COUNT, --count COUNT
+
+
+  -c COUNT, --count COUNT  
                         How many notifications will be shown (default to
-                        intmax)
-  -t TITLE, --title TITLE
+                        sys.maxsize)
+
+
+  -t TITLE, --title TITLE  
                         The title of the tooltip window.
-  -M MESSAGE, --message MESSAGE
+
+
+  -M MESSAGE, --message MESSAGE  
                         The message of the tooltip window.
+
+                        
+
+## Credits
+Ballon tooltip original code by: [wontoncc](https://gist.github.com/wontoncc/)
