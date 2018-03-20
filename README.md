@@ -1,6 +1,7 @@
 # stretch-reminder
 A simple windows, stretch reminder written in python.
 
+## Usage
 
 usage: stretch-reminder.py [-h] [-m MINUTES] [-c COUNT] [-t TITLE]
                            [-M MESSAGE]
